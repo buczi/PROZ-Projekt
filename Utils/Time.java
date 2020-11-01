@@ -1,4 +1,5 @@
 package Utils;
 
-public class Time {
+public interface Time {
+    public void Update();
 }
