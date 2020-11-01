@@ -5,10 +5,15 @@ MODEL_V_0_CODE
 
 ZAWARTOŚĆ:
 ALGORITHM - zawiera algorytm a* dostosowany do planszy składającej się z węzłów. Dla każdego samochodu losuje punkt startowy oraz końcowy. Następnie wyszukuje najepszej drogi pomiędzy tymi punktami.
+
 MVC - zawiera klasę główną w tej iteracji służy jako miejsce wywołania funkcji main. Zawiera klasę Controller będącą wątkiem w którym wykonuje się główna pętla gry. Inicjuję mapę.
+
 MAP - reprezentacja wszystkich obiektów nieprzemieszczających się. Klasa Map reprezentuję mapę po której przemieszczają się samochody, w jej skład wchodzi siatka węzłów (skrzyżowań).
+
 UTILS - klasy pomocnicze oraz klasa i interface odpowiedzialny za upływ czasu w grze.
+
 VEHICLE - reprezentacja obiektów przemieszczających się po mapie. Zestaw eventów dla samochodów w przypadku zmiany ich stanów ( np. z w drodze do na miejscu).
+
 PLIKI .TXT - odpowiednio przygotowane pliki tekstowe reprezentujace rozne mapy na ktorych bedzie prowadzona rozgrywka.
 
 ALGORITHM:
