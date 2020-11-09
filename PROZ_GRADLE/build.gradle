@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+jar{
+    manifest {
+        attributes 'Main-Class' : 'mvc.Controller'
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.compilerArgs << '-Xlint:unchecked'
+    options.deprecation = true
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
+
+group 'mvc'
+version '1.0-SNAPSHOT'
+
+
