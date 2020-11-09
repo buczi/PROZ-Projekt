@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Demo.DemoDisplay" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-09T11:51:46" hostname="ubuntu-Maciek" time="0.396">
+  <properties/>
+  <testcase name="testDemo" classname="Demo.DemoDisplay" time="0.396"/>
+  <system-out><![CDATA[/home/maciek/Desktop/PROZ_GRADLE
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
