@@ -1,0 +1,11 @@
+package mvc.exception;
+
+public enum ExceptionType {
+    LOAD_IMAGE_EXCEPTION,
+    LOAD_MAP_EXCEPTION,
+    READ_FROM_NULL_VAL,
+    CAR_POSITIONING_EXCEPTION,
+    CAR_GUI_EXCEPTION,
+    LOAD_MAP_FROM_FILE_EXCEPTION
+
+}

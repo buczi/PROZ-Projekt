@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.DemoDisplay" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-14T10:51:57" hostname="ubuntu-Maciek" time="2.627">
+  <properties/>
+  <testcase name="testDemo" classname="app.DemoDisplay" time="2.627"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

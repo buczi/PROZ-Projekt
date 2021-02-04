@@ -1,0 +1,53 @@
+plugins {
+    // Apply the application plugin to add support for building a CLI application in Java.
+    id 'application'
+}
+
+repositories {
+    // Use JCenter for resolving dependencies.
+    jcenter()
+}
+
+dependencies {
+    // Use JUnit test framework.
+    testImplementation 'junit:junit:4.13'
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'mvc.Application'
+}
+/*
+plugins {
+    id 'java'
+    id "application"
+}
+
+jar{
+    manifest {
+        attributes 'Main-Class' : 'mvc.Controller'
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.compilerArgs << '-Xlint:unchecked'
+    options.deprecation = true
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
+
+application{
+    main
+}
+
+group 'mvc'
+version '1.0-SNAPSHOT'
+ */
+
+
